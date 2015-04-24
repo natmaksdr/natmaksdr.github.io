@@ -1,18 +1,22 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Наталья Максимовна - Главная</title> 
+        <title>slsrsmail</title> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.2/css/material-wfont.min.css">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.2/css/ripples.min.css">
     </head>
     <body>
-        <div class='container' align='center' style='margin-top:15%;'>
-            <div class='well'>
-            <img style='border-radius:100%;width:100px;height:auto;' src='https://slsrs.ru/assets/nmproj/image.png' />
-            <h1>Наталья Максимовна</h1>
-            <p>Under construction.</p>
-            </div>
-        </div>
+     <div class="container-fluid"  style='margin-top:6%;margin-left:30%;margin-right:30%;'>
+        <form class="form-signin" method="post" action="https://passport.yandex.ru/for/natmaks.ru?mode=auth">
+        <h2 align='center'>slsrsmail</h2><br><br>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="login" required autofocus>
+        <input type="hidden" name="retpath" value="http://mail.yandex.ru/for/natmaks.ru">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" name="passwd" class="form-control" placeholder="Password" required>
+
+        <button class="btn btn-lg btn-primary btn-block btn-danger" type="submit">Sign in</button>
+      </form>
     </body>
 </html>
